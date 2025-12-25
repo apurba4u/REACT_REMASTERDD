@@ -1,0 +1,23 @@
+.header {
+  background-color: lightseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.header button {
+  height: 2rem;
+  width: 3rem;
+  background: transparent;
+  background-color: red;
+  color: gray;
+}
+.header button:hover {
+  transform: scale(95%);
+  background-color: royalblue;
+}
+
+.logo {
+  text-decoration: underline;
+  rotate: calc(180deg);
+}
