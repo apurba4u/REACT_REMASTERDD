@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+#test button {
+  border: none;
+  display: block;
+  margin: 10px;
+  height: 2rem;
+  width: 3rem;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: brown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #111;
+}
+.page2 {
+  height: 100vh;
+  width: 100%;
+  background-color: #222;
+}
+.page1 {
+  height: 100vh;
+  width: 100%;
+  background-color: #333;
+}
